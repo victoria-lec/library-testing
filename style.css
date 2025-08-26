@@ -9,7 +9,7 @@
 .box {
     border: 6px dashed #f2edeb;
     border-radius: 10px;
-    background-color: #ea4296;
+    background-color: #dd69a3;
     padding: 5px;
     margin: auto;
     margin-bottom: 5px;
@@ -52,6 +52,8 @@ button{
     color: #f2edeb;
     border-width: 0px;
     border-radius: 5px;
+    font-size: 18px;
+    margin: 7px;
 }
 button:hover{
     background-color: #fabc2a;
@@ -74,6 +76,10 @@ button:active{
     display: table;
     padding: 2px;
 }
+input[type="checkbox"]{
+  margin-left: auto;
+ float: right;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -95,7 +101,7 @@ button:active{
   text-transform: uppercase;
 }
 .topnav a:hover {
-  background-color: #ea4296;
+  background-color: #dd69a3;
   color: #902d41;
 }
 .topnav a.active {
