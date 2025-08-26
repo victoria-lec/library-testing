@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+   <link rel="stylesheet" href="style.css" />
+</head>
+
+<body onload="onload()">
+    <div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="search.html">Search</a>
+  <a  href="about.html">About</a>
+  <a href="works/Book2.html">Placeholder</a>
+</div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <div class="box", style="text-align: center;">
+    <h1>Search</h1></div>
+    <div id="filters", class="box">
+    <h3>Filters</h3>
+    <div class="container">
+        <div class="column3">
+            <label for="plength", id="prange">Length in pages: 0 to 400</label>
+            <input type="range", id="plength", name="plength", min="0", max="400",step="1", value="400"><br>
+            <label for="tlength", id="trange">Length in minutes: 0 to 400</label>
+            <input type="range", id="tlength", name="tlength", min="0", max="400",step="1", value="400"><br>
+        </div>
+        <div class="column3">
+            <label for="memory", id="range">Memory:</label>
+            <input class="themes", type="checkbox", id="memory", name="memory", checked="True"><br>
+            <label for="cats", id="range">Cats:</label>
+            <input class="themes", type="checkbox", id="cats", name="cats", checked="True"><br>
+            <label for="happy_stuff", id="range">happy_stuff:</label>
+            <input class="themes", type="checkbox", id="happy_stuff", name="happy_stuff", checked="True"><br>
+        </div>
+        <div class="column3">
+            <p>placeholder</p>
+            <button onclick="parseform()">submit</button>
+        </div>
+        </form>
+    </div>
+    </div>
+    <div id="books", class="box">
+        <table id="table">
+<tr><th>Title</th><th>Length</th><th>Themes</th></tr>
+        </table>
+    </div>
+</body>
+</html>

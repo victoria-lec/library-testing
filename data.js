@@ -1,0 +1,23 @@
+const collection=[
+    {
+        "type":"book",
+        "title":"Cecilia",
+        "length_pages":27,
+        "themes":["memory"],
+        "link":"./works/Cecilia.html"
+    },
+    {
+        "type":"book",
+        "title":"book2",
+        "length_pages":350,
+        "themes":["cats"],
+        "link":"./works/Book2.html"
+    },
+    {
+        "type":"book",
+        "title":"story",
+        "length_pages":100,
+        "themes":["happy_stuff","cats"],
+        "link":"./works/Cecilia.html"
+    }
+]

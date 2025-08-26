@@ -1,0 +1,104 @@
+@font-face {
+  font-family: hand;
+  src: url(fonts/hand.otf);
+}
+@font-face {
+  font-family: hopetake;
+  src: url(Hope\ Take/Hope\ Take.otf);
+}
+.box {
+    border: 6px dashed #f2edeb;
+    border-radius: 10px;
+    background-color: #ea4296;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    min-width: 60%;
+    max-width: 85%;
+}
+h1,h2,h3 {
+    font-family: hand;
+    text-transform: uppercase;
+    color: #fabc2a;
+}
+th {
+    font-family: hand;
+    text-transform: uppercase;
+    width: 20%;
+    margin: 10px;
+    color: #1b998b;
+    text-shadow: 1px 1px 0 #902d41,
+    -1px 1px 0 #902d41,
+    -1px -1px 0 #902d41,
+    1px -1px 0 #902d41;
+}
+*{
+font-family: hopetake;
+color: #902d41;
+box-sizing: border-box;
+overflow: auto;
+}
+body{
+    background-color: #902d41;
+}
+input {
+  width: 200px;
+  margin: 0;
+  accent-color: #fabc2a;
+}
+button{
+    background-color: #1b998b;
+    color: #f2edeb;
+    border-width: 0px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #fabc2a;
+    color: #902d41;
+    border-width: 0px;
+    border-radius: 5px;
+}
+button:active{
+    background-color: #fabc2a;
+    color: #902d41;
+    border-width: 1px;
+    border-style: inset;
+    border-color: #902d41;
+    border-radius: 5px;
+}
+.column3{
+    float: left;
+    width: 33%;
+    border: none;
+    display: table;
+    padding: 2px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+/* white#f2edeb;blue#1b998b;bright pink #ff007f;dark pink #902d41;yellow #fabc2a */
+/*navigation*/
+.topnav {
+  background-color: #902d41;
+}
+.topnav a {
+  float: left;
+  color: #f2edeb;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 12px;
+  border-radius: 10px;
+  font-family: hand;
+  text-transform: uppercase;
+}
+.topnav a:hover {
+  background-color: #ea4296;
+  color: #902d41;
+}
+.topnav a.active {
+  background-color: #1b998b;
+  color: #f2edeb;
+}
