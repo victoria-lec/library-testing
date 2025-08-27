@@ -43,9 +43,11 @@ body{
     background-color: #902d41;
 }
 input {
-  width: 200px;
   margin: 0;
   accent-color: #fabc2a;
+}
+input[type="range"]{
+  width: 125px;
 }
 button{
     background-color: #1b998b;
@@ -71,14 +73,18 @@ button:active{
 }
 .column3{
     float: left;
-    width: 33%;
+    width: 40%;
     border: none;
     display: table;
     padding: 2px;
 }
+
 input[type="checkbox"]{
   margin-left: auto;
+  margin-right: 15%;
  float: right;
+ vertical-align: middle;
+ display: inline-block;
 }
 .container{
     display: flex;

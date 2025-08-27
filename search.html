@@ -17,31 +17,66 @@
     <script src="data.js"></script>
     <script src="script.js"></script>
     <div class="box", style="text-align: center;">
-    <h1>Search</h1></div>
+    <h1>Search</h1>
+    <label for="search">Keywords: </label><input type="search", id="search", name="search">
+</div>
     <div id="filters", class="box">
     <h3>Filters</h3>
     <div class="container">
         <div class="column3">
             <label for="plength", id="prange">Length in pages: 0 to 400</label>
             <input type="range", id="plength", name="plength", min="0", max="400",step="1", value="400"><br>
-            <label for="tlength", id="trange">Length in minutes: 0 to 400</label>
-            <input type="range", id="tlength", name="tlength", min="0", max="400",step="1", value="400"><br>
+            <label for="comics">comics:</label>
+            <input class="themes", type="checkbox", id="comics", name="comics", checked="True"><br>
+            <label for="writing">writing:</label>
+            <input class="themes", type="checkbox", id="writing", name="writing", checked="True"><br>
+            <label for="audiovisual">audiovisual:</label>
+            <input class="themes", type="checkbox", id="audiovisual", name="audiovisual", checked="True"><br>
         </div>
         <div class="column3">
-            <label for="memory", id="range">Memory:</label>
-            <input class="themes", type="checkbox", id="memory", name="memory", checked="True"><br>
-            <label for="cats", id="range">Cats:</label>
-            <input class="themes", type="checkbox", id="cats", name="cats", checked="True"><br>
-            <label for="happy_stuff", id="range">happy_stuff:</label>
-            <input class="themes", type="checkbox", id="happy_stuff", name="happy_stuff", checked="True"><br>
+            <label for="rec">Artist's recommendation:</label>
+            <input class="themes", type="checkbox", id="rec", name="rec", checked="True"><br>
+            <label for="CCA">CCA:</label>
+            <input class="themes", type="checkbox", id="CCA", name="CCA", checked="True"><br>
+            <label for="cozy">cozy:</label>
+            <input class="themes", type="checkbox", id="cozy", name="cozy", checked="True"><br>
+            <label for="CCA">CCA:</label>
+            <input class="themes", type="checkbox", id="CCA", name="CCA", checked="True"><br>
         </div>
         <div class="column3">
-            <p>placeholder</p>
+            <label for="HAT">Horror/action/thriller:</label>
+            <input class="themes", type="checkbox", id="HAT", name="HAT", checked="True"><br>
+            <label for="mystery">Mystery:</label>
+            <input class="themes", type="checkbox", id="mystery", name="mystery", checked="True"><br>
+            <label for="exp">narrative experiments:</label>
+            <input class="themes", type="checkbox", id="exp", name="exp", checked="True"><br>
+            <label for="comedy">Comedy:</label>
+            <input class="themes", type="checkbox", id="comedy", name="comedy", checked="True"><br>
             
+        </div>
+        <div class="column3">
+            <label for="scifa">Scifi/fantasy:</label>
+            <input class="themes", type="checkbox", id="scifa", name="scifa", checked="True"><br>
+            <label for="psy">Psychological:</label>
+            <input class="themes", type="checkbox", id="psy", name="psy", checked="True"><br>
+            <label for="gender">Gender:</label>
+            <input class="themes", type="checkbox", id="gender", name="gender", checked="True"><br>
+            <label for="pol">Politics:</label>
+            <input class="themes", type="checkbox", id="pol", name="pol", checked="True"><br>
+        </div>
+        <div class="column3">
+            <label for="trauma">Trauma:</label>
+            <input class="themes", type="checkbox", id="trauma", name="trauma", checked="True"><br>
+            <label for="cur">Current events:</label>
+            <input class="themes", type="checkbox", id="cur", name="cur", checked="True"><br>
+            <label for="child">Childhood:</label>
+            <input class="themes", type="checkbox", id="child", name="child", checked="True"><br>
         </div>
         </form>
     </div>
     <button onclick="parseform()">submit</button>
+    <button onclick="clearfilters()">deselect all</button>
+    <button onclick="checkfilters()">select all</button>
     </div>
     <div id="books", class="box">
         <table id="table">
