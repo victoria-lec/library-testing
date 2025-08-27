@@ -37,7 +37,8 @@ th {
 font-family: hopetake;
 color: #902d41;
 box-sizing: border-box;
-overflow: auto;
+overflow-x: auto;
+overflow-y: visible;
 }
 body{
     background-color: #902d41;
@@ -73,10 +74,12 @@ button:active{
 }
 .column3{
     float: left;
-    width: 40%;
+    width: 33%;
+    min-width: 225px;
     border: none;
     display: table;
     padding: 2px;
+    flex-direction: row;
 }
 
 input[type="checkbox"]{
@@ -89,6 +92,11 @@ input[type="checkbox"]{
 .container{
     display: flex;
     flex-direction: row;
+    border: none;
+}
+.containervert{
+  display:contents;
+    flex-direction:column;
     border: none;
 }
 /* white#f2edeb;blue#1b998b;bright pink #ff007f;dark pink #902d41;yellow #fabc2a */

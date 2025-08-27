@@ -28,9 +28,9 @@ function filter(l,t,s){
     return arr
 }
 function generate(books){
-    txt="<tr><th>Title</th><th>Length</th><th>Themes</th></tr>"
+    txt="<tr><th>Title</th><th>Artist(s)</th><th>Length</th><th>Themes</th></tr>"
     for (const obj of books){
-        txt+= "<tr><td><a href='" + obj.link + "'>"+ obj.title+"</td><td>" + obj.length_pages + "</td><td>" + obj.themes + "</td>"
+        txt+= "<tr><td><a href='" + obj.link + "'>"+ obj.title+"</a></td><td>" + obj.author + "</td><td>" +  obj.length_pages + "</td><td>" + obj.themes + "</td>"
     }
     document.getElementById("table").innerHTML=txt
 }

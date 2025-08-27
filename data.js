@@ -4,7 +4,7 @@ const collection=[
         "title":"Cecilia",
         "author":"Dr Seuss",
         "length_pages":27,
-        "themes":["memory"],
+        "themes":["scifi/fantasy","narrative experiments"],
         "link":"./works/Cecilia.html"
     },
     {
@@ -12,7 +12,7 @@ const collection=[
         "title":"Book2",
         "author":"Dr Seuss",
         "length_pages":350,
-        "themes":["cats"],
+        "themes":["childhood"],
         "link":"./works/Book2.html"
     },
     {
@@ -20,7 +20,7 @@ const collection=[
         "title":"Story",
         "author":"Dr Seuss",
         "length_pages":100,
-        "themes":["happy_stuff","cats"],
+        "themes":["cozy","gender"],
         "link":"./works/Cecilia.html"
     }
 ]
