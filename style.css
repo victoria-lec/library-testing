@@ -21,6 +21,10 @@ h1,h2,h3,h4 {
     font-family: hand;
     text-transform: uppercase;
     color: #fabc2a;
+    text-shadow: 1px 1px 0 #7d2436,
+    -1px 1px 0 #7d2436,
+    -1px -1px 0 #7d2436,
+    1px -1px 0 #7d2436;
 }
 th {
     font-family: hand;
@@ -34,10 +38,10 @@ th {
     1px -1px 0 #902d41;
 }
 .outlined{
-  text-shadow: 1px 1px 0 #902d41,
-    -1px 1px 0 #902d41,
-    -1px -1px 0 #902d41,
-    1px -1px 0 #902d41;
+  text-shadow: 1px 1px 0 #7d2436,
+    -1px 1px 0 #7d2436,
+    -1px -1px 0 #7d2436,
+    1px -1px 0 #7d2436;
 }
 *{
 font-family: hopetake;
